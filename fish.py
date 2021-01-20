@@ -7,10 +7,7 @@ class Fish:
         self.color = color
 
     def status(self):
-       print(self.type + " type fish, " +
-              self.name +
-              ", weight: " + str(self.weight) + " gram"
-              + ", color: " + self.color)
+       pass
 
     def feed(self,type):
         if self.type == "clownfish" or self.type == "tang":
